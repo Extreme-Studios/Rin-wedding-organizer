@@ -60,7 +60,7 @@ export default function Navbar() {
                   scrolled ? "text-gold-dark" : "text-white/80"
                 )}
               >
-                Organizer &amp; MUA
+                Penata Acara &amp; Penata Rias
               </span>
             </div>
           </a>

@@ -22,7 +22,7 @@ export default function Footer() {
                   Rin <span className="italic font-light">Wedding</span>
                 </p>
                 <p className="text-[0.6rem] tracking-[0.35em] uppercase text-champagne/80">
-                  Organizer &amp; MUA
+                  Penata Acara &amp; Penata Rias
                 </p>
               </div>
             </div>

@@ -3,7 +3,7 @@
 export const business = {
   name: "Rin Wedding Organizer",
   shortName: "Rin",
-  tagline: "Wedding Organizer & Makeup Artist",
+  tagline: "Penata Acara & Penata Rias",
   city: "Sidoarjo, Jawa Timur",
   headline: "Cantik di Hari Spesialmu",
   subheadline:
