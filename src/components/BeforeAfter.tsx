@@ -31,7 +31,7 @@ export default function BeforeAfter() {
     <section className="py-24 md:py-36 bg-gradient-to-b from-white via-blush/60 to-white">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Before & After"
+          eyebrow="Sebelum & Sesudah"
           title={beforeAfter.title}
           subtitle={beforeAfter.subtitle}
         />
@@ -47,7 +47,7 @@ export default function BeforeAfter() {
             {/* After (full) */}
             <img
               src={beforeAfter.after}
-              alt="After — flawless bridal makeup"
+              alt="Sesudah dirias oleh Rin Wedding"
               loading="lazy"
               draggable={false}
               className="absolute inset-0 h-full w-full object-cover object-top"
@@ -59,7 +59,7 @@ export default function BeforeAfter() {
             >
               <img
                 src={beforeAfter.before}
-                alt="Before makeup"
+              alt="Sebelum makeup"
                 loading="lazy"
                 draggable={false}
                 className="absolute inset-0 h-full w-full object-cover object-top"
@@ -90,7 +90,7 @@ export default function BeforeAfter() {
             </span>
           </div>
           <p className="mt-6 text-center text-sm text-taupe font-light tracking-wide">
-            ← Drag the handle to compare →
+            ← Geser pegangan untuk membandingkan →
           </p>
         </Reveal>
       </div>

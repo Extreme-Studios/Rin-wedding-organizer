@@ -29,9 +29,9 @@ export default function Services() {
     <section id="services" className="py-24 md:py-36 bg-cream/60">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Our Services"
-          title="A Complete Suite of Wedding Artistry"
-          subtitle="From flawless bridal makeup to full wedding orchestration — every service is delivered with premium products, refined taste and genuine care."
+          eyebrow="Layanan Kami"
+          title="Layanan Pernikahan yang Lengkap"
+          subtitle="Dari makeup pengantin hingga koordinasi acara, setiap layanan diberikan dengan produk berkualitas, selera yang elegan, dan perhatian tulus."
         />
 
         <motion.div

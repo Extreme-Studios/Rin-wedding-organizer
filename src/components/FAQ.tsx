@@ -13,8 +13,8 @@ export default function FAQ() {
       <div className="mx-auto max-w-3xl px-5 md:px-8">
         <SectionHeading
           eyebrow="FAQ"
-          title="Everything You Need to Know"
-          subtitle="Answers to the questions couples ask us most often. Still curious? We're one message away."
+          title="Hal yang Perlu Anda Ketahui"
+          subtitle="Jawaban untuk pertanyaan yang paling sering diajukan. Jika masih ada yang ingin ditanyakan, hubungi kami lewat WhatsApp."
         />
 
         <div className="space-y-4">

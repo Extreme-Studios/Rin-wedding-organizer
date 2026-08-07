@@ -11,7 +11,7 @@ export default function InstagramFeed() {
         <SectionHeading
           eyebrow="Instagram"
           title={`@${business.instagram}`}
-          subtitle="Follow our journey — daily bridal inspiration, real weddings and behind-the-scenes artistry."
+          subtitle="Ikuti perjalanan kami - inspirasi pengantin, karya nyata, dan proses di balik layar."
         />
 
         <motion.div
@@ -38,7 +38,7 @@ export default function InstagramFeed() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gold/70 to-nude/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 <span className="flex items-center gap-2 text-white text-sm font-medium translate-y-3 group-hover:translate-y-0 transition-transform duration-500">
-                  <Heart size={16} className="fill-white" /> View Post
+                  <Heart size={16} className="fill-white" /> Lihat Postingan
                 </span>
               </div>
             </motion.a>
@@ -47,7 +47,7 @@ export default function InstagramFeed() {
 
         <div className="mt-12 text-center">
           <GoldButton href={business.instagramUrl}>
-            <InstagramIcon size={16} /> Follow on Instagram
+            <InstagramIcon size={16} /> Ikuti di Instagram
           </GoldButton>
         </div>
       </div>

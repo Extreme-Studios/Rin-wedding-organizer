@@ -99,7 +99,7 @@ export default function Navbar() {
 
           {/* Mobile toggle */}
           <button
-            aria-label="Toggle menu"
+            aria-label="Buka atau tutup menu"
             onClick={() => setOpen(!open)}
             className={cn(
               "lg:hidden h-11 w-11 rounded-full flex items-center justify-center transition-colors duration-500 border",
@@ -149,7 +149,7 @@ export default function Navbar() {
                 rel="noreferrer"
                 className="mt-4 flex items-center gap-2 rounded-full bg-gradient-to-r from-gold to-nude text-white px-8 py-3.5 text-sm tracking-[0.14em] uppercase shadow-lift"
               >
-                <MessageCircle size={16} /> Chat on WhatsApp
+                <MessageCircle size={16} /> Chat via WhatsApp
               </motion.a>
             </motion.nav>
           </motion.div>

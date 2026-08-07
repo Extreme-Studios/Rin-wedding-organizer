@@ -27,15 +27,15 @@ export default function Footer() {
               </div>
             </div>
             <p className="mt-5 text-sm font-light leading-relaxed text-cream/70 max-w-xs">
-              Where beauty meets your perfect wedding — elegant makeup and complete
-              wedding services in {business.city}.
+              Riasan elegan dan layanan pernikahan lengkap untuk mewujudkan
+              hari spesial Anda di {business.city}.
             </p>
           </div>
 
           {/* Navigation */}
           <nav aria-label="Footer navigation" className="md:justify-self-center">
             <p className="text-xs tracking-[0.3em] uppercase text-champagne mb-5">
-              Explore
+              Jelajahi
             </p>
             <ul className="grid grid-cols-2 gap-x-10 gap-y-3">
               {navLinks.map((l) => (
@@ -54,7 +54,7 @@ export default function Footer() {
           {/* Social */}
           <div className="md:justify-self-end">
             <p className="text-xs tracking-[0.3em] uppercase text-champagne mb-5">
-              Follow Us
+              Ikuti Kami
             </p>
             <div className="flex gap-3">
               <a
@@ -83,9 +83,9 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 border-t border-cream/15 pt-7 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-cream/60 font-light">
-          <p>© 2026 {business.name}. All Rights Reserved.</p>
+          <p>© 2026 {business.name}. Seluruh hak cipta dilindungi.</p>
           <p className="flex items-center gap-1.5">
-            Crafted with <Heart size={12} className="fill-gold text-gold" /> in Sidoarjo
+            Dibuat dengan <Heart size={12} className="fill-gold text-gold" /> di Sidoarjo
           </p>
         </div>
       </div>

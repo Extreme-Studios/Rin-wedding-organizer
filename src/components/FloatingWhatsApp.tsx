@@ -12,7 +12,7 @@ export default function FloatingWhatsApp() {
       href={waLink}
       target="_blank"
       rel="noreferrer"
-      aria-label="Chat on WhatsApp"
+      aria-label="Chat via WhatsApp"
       initial={{ opacity: 0, scale: 0, y: 20 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ delay: 2, type: "spring", stiffness: 200, damping: 16 }}

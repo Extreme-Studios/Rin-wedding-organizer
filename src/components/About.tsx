@@ -5,11 +5,11 @@ import { business } from "../data/content";
 import { Reveal } from "./ui";
 
 const values = [
-  { icon: BadgeCheck, label: "Professional" },
-  { icon: Award, label: "Experienced" },
-  { icon: HeartHandshake, label: "Personalized Service" },
-  { icon: Gem, label: "Premium Products" },
-  { icon: Eye, label: "Attention to Detail" },
+  { icon: BadgeCheck, label: "Profesional" },
+  { icon: Award, label: "Berpengalaman" },
+  { icon: HeartHandshake, label: "Layanan Personal" },
+  { icon: Gem, label: "Produk Premium" },
+  { icon: Eye, label: "Detail Terjaga" },
 ];
 
 export default function About() {
@@ -33,8 +33,8 @@ export default function About() {
             <div className="relative rounded-[2rem] overflow-hidden shadow-lift aspect-[4/5]">
               <motion.img
                 style={{ y: imgY, scale: 1.12 }}
-                src="https://images.pexels.com/photos/37710473/pexels-photo-37710473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=800"
-                alt="Rin applying elegant bridal makeup"
+                src="/portfolio/rin-4.jpg"
+                alt="Portofolio makeup Rin Wedding"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -43,8 +43,8 @@ export default function About() {
           <Reveal delay={0.2} className="absolute -bottom-10 -right-4 md:-right-10 w-48 md:w-60">
             <div className="rounded-3xl overflow-hidden border-[6px] border-white shadow-lift aspect-square">
               <img
-                src="https://images.pexels.com/photos/29194871/pexels-photo-29194871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=500&fit=crop"
-                alt="Traditional Javanese bridal makeup"
+                src="/portfolio/rin-3.jpg"
+                alt="Portofolio riasan Rin Wedding"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -54,7 +54,7 @@ export default function About() {
             <div className="rounded-2xl bg-white/85 backdrop-blur-md shadow-soft px-6 py-4 border border-champagne/50">
               <p className="font-serif text-3xl text-gold-dark">8+</p>
               <p className="text-xs tracking-[0.18em] uppercase text-taupe">
-                Years of Artistry
+                Tahun Berkarya
               </p>
             </div>
           </Reveal>
@@ -66,26 +66,26 @@ export default function About() {
             <div className="flex items-center gap-3 mb-5">
               <span className="h-px w-8 bg-gold/60" />
               <span className="uppercase tracking-[0.3em] text-xs font-medium text-gold-dark">
-                About {business.shortName}
+                Tentang {business.shortName}
               </span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-[3.4rem] leading-[1.1] font-medium text-espresso text-balance">
-              Crafting Unforgettable Weddings,{" "}
-              <span className="italic font-light text-gold-dark">One Detail at a Time</span>
+              Merangkai Pernikahan Berkesan,{" "}
+              <span className="italic font-light text-gold-dark">dengan Detail yang Bermakna</span>
             </h2>
           </Reveal>
           <Reveal delay={0.15}>
             <p className="mt-7 text-taupe leading-relaxed font-light text-base md:text-lg">
               <strong className="font-medium text-cocoa">{business.name}</strong>{" "}
-              specializes in creating unforgettable weddings with elegant makeup and
-              complete wedding services. From your first consultation to the final
-              farewell of your reception, we design every moment with intention —
-              blending timeless beauty, refined decoration and seamless coordination.
+              menghadirkan pernikahan berkesan melalui riasan elegan dan layanan
+              pernikahan lengkap. Dari konsultasi pertama sampai akhir acara,
+              kami menyiapkan setiap momen dengan penuh perhatian - memadukan
+              keindahan, dekorasi, dan koordinasi yang rapi.
             </p>
             <p className="mt-5 text-taupe leading-relaxed font-light text-base md:text-lg">
-              Based in {business.city}, our team has beautified hundreds of brides and
-              orchestrated celebrations of every scale — intimate akad ceremonies,
-              grand traditional weddings and modern luxury receptions.
+              Berbasis di {business.city}, tim kami telah merias ratusan pengantin dan
+              menangani perayaan dalam berbagai skala - mulai akad intim,
+              pernikahan adat, hingga resepsi modern.
             </p>
           </Reveal>
           <Reveal delay={0.25}>

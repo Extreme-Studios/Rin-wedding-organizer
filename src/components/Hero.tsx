@@ -8,8 +8,7 @@ const waLink = `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(
   business.whatsappMessage
 )}`;
 
-const HERO_IMAGE =
-  "https://images.pexels.com/photos/29080967/pexels-photo-29080967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1200&w=2000";
+const HERO_IMAGE = "/portfolio/rin-1.jpg";
 
 export default function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -28,7 +27,7 @@ export default function Hero() {
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <img
           src={HERO_IMAGE}
-          alt="Elegant bride with beautiful makeup by Rin Wedding Organizer"
+          alt="Hasil riasan oleh Rin Wedding Organizer"
           className="h-full w-full object-cover object-[center_30%]"
           fetchPriority="high"
         />
@@ -61,8 +60,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="font-serif text-white text-5xl md:text-7xl lg:text-[5.4rem] leading-[1.06] max-w-4xl text-balance font-medium"
         >
-          Where <span className="italic font-light text-champagne">Beauty</span> Meets
-          <br className="hidden md:block" /> Your Perfect Wedding
+          Momen <span className="italic font-light text-champagne">Indah</span> untuk
+          <br className="hidden md:block" /> Pernikahan Impianmu
         </motion.h1>
 
         <motion.p
@@ -80,9 +79,9 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.95, ease: [0.22, 1, 0.36, 1] }}
           className="mt-10 flex flex-col sm:flex-row items-center gap-4"
         >
-          <GoldButton href={waLink}>Book Consultation</GoldButton>
+          <GoldButton href={waLink}>Konsultasi Sekarang</GoldButton>
           <GoldButton href="#gallery" variant="ghost-light">
-            View Portfolio
+            Lihat Portofolio
           </GoldButton>
         </motion.div>
       </motion.div>
@@ -90,7 +89,7 @@ export default function Hero() {
       {/* Scroll cue */}
       <motion.a
         href="#about"
-        aria-label="Scroll down"
+        aria-label="Gulir ke bawah"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 1 }}

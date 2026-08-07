@@ -34,9 +34,9 @@ export default function Testimonials() {
 
       <div className="relative mx-auto max-w-4xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Testimonials"
-          title="Words From Our Beautiful Brides"
-          subtitle="Nothing means more to us than the trust of every couple we've served."
+          eyebrow="Testimoni"
+          title="Cerita dari Klien Kami"
+          subtitle="Kepercayaan setiap pasangan adalah hal yang paling berarti bagi kami."
         />
 
         <div className="relative">

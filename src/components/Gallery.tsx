@@ -6,12 +6,12 @@ import { SectionHeading } from "./ui";
 import { cn } from "../utils/cn";
 
 export default function Gallery() {
-  const [active, setActive] = useState("All");
+  const [active, setActive] = useState("Semua");
   const [lightbox, setLightbox] = useState<number | null>(null);
 
   const items = useMemo(
     () =>
-      active === "All" ? gallery : gallery.filter((g) => g.category === active),
+      active === "Semua" ? gallery : gallery.filter((g) => g.category === active),
     [active]
   );
 
@@ -46,9 +46,9 @@ export default function Gallery() {
     <section id="gallery" className="py-24 md:py-36 bg-white">
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Portfolio"
-          title="Moments We've Made Beautiful"
-          subtitle="A curated selection from our latest weddings — bridal artistry, traditional elegance and celebrations styled by Rin."
+          eyebrow="Portofolio"
+          title="Momen Indah Bersama Rin"
+          subtitle="Pilihan karya terbaru dari Rin Wedding - riasan pengantin, pesona tradisional, dan momen spesial yang ditangani sepenuh hati."
         />
 
         {/* Category filter */}
@@ -119,21 +119,21 @@ export default function Gallery() {
             onClick={() => setLightbox(null)}
           >
             <button
-              aria-label="Close"
+              aria-label="Tutup"
               className="absolute top-5 right-5 h-12 w-12 rounded-full bg-white/10 border border-white/30 text-white flex items-center justify-center hover:bg-white hover:text-cocoa transition-all duration-300 z-10"
               onClick={() => setLightbox(null)}
             >
               <X size={20} />
             </button>
             <button
-              aria-label="Previous image"
+              aria-label="Foto sebelumnya"
               className="absolute left-3 md:left-8 h-12 w-12 rounded-full bg-white/10 border border-white/30 text-white flex items-center justify-center hover:bg-white hover:text-cocoa transition-all duration-300 z-10"
               onClick={(e) => { e.stopPropagation(); prev(); }}
             >
               <ChevronLeft size={22} />
             </button>
             <button
-              aria-label="Next image"
+              aria-label="Foto berikutnya"
               className="absolute right-3 md:right-8 h-12 w-12 rounded-full bg-white/10 border border-white/30 text-white flex items-center justify-center hover:bg-white hover:text-cocoa transition-all duration-300 z-10"
               onClick={(e) => { e.stopPropagation(); next(); }}
             >

@@ -8,7 +8,7 @@ const tierIcons: LucideIcon[] = [Star, Gem, Crown, Diamond];
 
 const waFor = (pkg: string) =>
   `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(
-    `Hello Rin Wedding Organizer, I'm interested in the ${pkg} wedding package ✨`
+    `Halo Kak Rin, saya tertarik dengan paket pernikahan ${pkg}.`
   )}`;
 
 export default function Packages() {
@@ -17,9 +17,9 @@ export default function Packages() {
       <div className="absolute top-20 left-1/2 -translate-x-1/2 h-72 w-[60rem] rounded-full bg-champagne/30 blur-3xl" />
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
-          eyebrow="Wedding Packages"
-          title="Choose the Celebration You Deserve"
-          subtitle="Thoughtfully composed packages for every scale of celebration — each one fully customizable to your dream and budget."
+          eyebrow="Paket Pernikahan"
+          title="Pilih Perayaan yang Paling Tepat"
+          subtitle="Paket disusun untuk berbagai skala perayaan dan dapat disesuaikan dengan impian serta anggaran Anda."
         />
 
         <motion.div
@@ -44,7 +44,7 @@ export default function Packages() {
               >
                 {pkg.featured && (
                   <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-to-r from-gold to-nude px-5 py-1.5 text-[0.65rem] tracking-[0.25em] uppercase text-white shadow-soft whitespace-nowrap">
-                    Most Exclusive
+                    Paling Eksklusif
                   </span>
                 )}
                 <div
@@ -90,7 +90,7 @@ export default function Packages() {
                       pkg.featured ? "text-cream/70" : "text-taupe"
                     )}
                   >
-                    / starting
+                    / mulai
                   </span>
                 </p>
 
@@ -121,7 +121,7 @@ export default function Packages() {
                   variant={pkg.featured ? "solid" : "outline"}
                   className="mt-8 w-full !px-4 text-center"
                 >
-                  Reserve {pkg.name}
+                  Pesan {pkg.name}
                 </GoldButton>
               </motion.div>
             );
@@ -129,8 +129,8 @@ export default function Packages() {
         </motion.div>
 
         <p className="mt-10 text-center text-sm text-taupe font-light">
-          * Prices are starting estimates — every package can be tailored. Contact us
-          for a personalized quotation.
+          * Harga adalah estimasi awal. Setiap paket dapat disesuaikan. Hubungi kami
+            untuk penawaran sesuai kebutuhan.
         </p>
       </div>
     </section>
