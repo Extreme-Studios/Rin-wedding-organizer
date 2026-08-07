@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Jost", "Helvetica Neue", sans-serif;
+
+  --color-ivory: #fffdfa;
+  --color-cream: #faf6f0;
+  --color-blush: #f6efe6;
+  --color-champagne: #e8d9c3;
+  --color-gold: #c9a875;
+  --color-gold-dark: #a9885a;
+  --color-nude: #b99b7c;
+  --color-taupe: #8c7a68;
+  --color-cocoa: #5c4d3f;
+  --color-espresso: #3f352c;
+
+  --shadow-soft: 0 12px 40px -12px rgba(92, 77, 63, 0.16);
+  --shadow-lift: 0 24px 60px -16px rgba(92, 77, 63, 0.24);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-cocoa);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-champagne);
+  color: var(--color-espresso);
+}
+
+/* Elegant thin scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-champagne);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Masonry columns */
+.masonry {
+  column-count: 1;
+  column-gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .masonry { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .masonry { column-count: 3; }
+}
+.masonry > * {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+}
