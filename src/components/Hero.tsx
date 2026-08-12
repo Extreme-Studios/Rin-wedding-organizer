@@ -8,7 +8,7 @@ const waLink = `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(
   business.whatsappMessage
 )}`;
 
-const HERO_IMAGE = "/portfolio/rin-1.jpg";
+const HERO_IMAGE = "/portfolio/wedding-hero.jpg";
 
 export default function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -27,8 +27,8 @@ export default function Hero() {
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <img
           src={HERO_IMAGE}
-          alt="Hasil riasan oleh Rin Wedding Organizer"
-          className="h-full w-full object-cover object-[center_30%]"
+          alt="Pasangan pengantin dalam sesi foto wedding"
+          className="h-full w-full object-cover object-[center_35%]"
           fetchPriority="high"
         />
       </motion.div>

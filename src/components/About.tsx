@@ -33,8 +33,8 @@ export default function About() {
             <div className="relative rounded-[2rem] overflow-hidden shadow-lift aspect-[4/5]">
               <motion.img
                 style={{ y: imgY, scale: 1.12 }}
-                src="/portfolio/rin-4.jpg"
-                alt="Portofolio makeup Rin Wedding"
+                src="/portfolio/wedding-couple-white.jpg"
+                alt="Pasangan pengantin dalam busana putih"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -43,8 +43,8 @@ export default function About() {
           <Reveal delay={0.2} className="absolute -bottom-10 -right-4 md:-right-10 w-48 md:w-60">
             <div className="rounded-3xl overflow-hidden border-[6px] border-white shadow-lift aspect-square">
               <img
-                src="/portfolio/rin-3.jpg"
-                alt="Portofolio riasan Rin Wedding"
+                src="/portfolio/wedding-rings.jpg"
+                alt="Detail buku nikah dan cincin"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />

@@ -14,6 +14,11 @@ const waFor = (pkg: string) =>
 export default function Packages() {
   return (
     <section id="packages" className="py-24 md:py-36 bg-cream/60 relative overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-[0.08]"
+        style={{ backgroundImage: "url('/portfolio/wedding-rings.jpg')" }}
+        aria-hidden="true"
+      />
       <div className="absolute top-20 left-1/2 -translate-x-1/2 h-72 w-[60rem] rounded-full bg-champagne/30 blur-3xl" />
       <div className="relative mx-auto max-w-7xl px-5 md:px-8">
         <SectionHeading
