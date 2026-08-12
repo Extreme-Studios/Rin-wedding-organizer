@@ -10,7 +10,6 @@ import InstagramFeed from "./components/InstagramFeed";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import ChatWidget from "./components/ChatWidget";
 
 export default function App() {
@@ -31,7 +30,6 @@ export default function App() {
       </main>
       <Footer />
       <ChatWidget />
-      <FloatingWhatsApp />
     </div>
   );
 }
