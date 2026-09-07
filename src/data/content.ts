@@ -85,6 +85,9 @@ export const packages: WeddingPackage[] = [
   { name: "Gold", price: "Mulai Rp15 jt", note: "Favorit pasangan", features: ["Semua fasilitas Silver", "Makeup keluarga 2 orang", "Dekorasi dan bunga premium", "Dokumentasi foto 1 hari", "MC resepsi", "Henna pengantin", "Bantuan perencanaan pernikahan"] },
   { name: "Platinum", price: "Mulai Rp25 jt", note: "Pengalaman istimewa", featured: true, features: ["Semua fasilitas Gold", "Makeup keluarga 4 orang", "Foto dan video sinematik", "Dekorasi venue premium", "Tim wedding organizer lengkap", "Makeup prewedding", "Hiburan dan akustik", "Konsep pernikahan khusus"] },
   { name: "Premium", price: "Mulai Rp40 jt", note: "Pernikahan mewah sesuai keinginan", features: ["Semua fasilitas Platinum", "Makeup keluarga tanpa batas", "Gaun pengantin desainer", "Styling venue dan pencahayaan", "Video same-day edit", "Manajemen vendor lengkap", "Asisten pribadi", "Sesi foto setelah pernikahan"] },
+  { name: "Lamaran", price: "Rp1,5 jt", note: "Momen lamaran", features: ["Backdrop", "Makeup dan hijab do", "Foto"] },
+  { name: "Siraman 7 Bulan / Mitoni", price: "Rp2,3 jt", note: "Tradisi 7 bulan", features: ["Backdrop", "Makeup dan hijab do", "Kain siraman", "Kebaya dan baju cowok", "MC", "Foto"] },
+  { name: "Tedak Siten", price: "Rp2 jt", note: "Tradisi keluarga", features: ["Backdrop", "Makeup ibu dan hijab do", "MC", "Foto"] },
 ];
 
 export type Testimonial = { name: string; role: string; photo: string; rating: number; quote: string };
