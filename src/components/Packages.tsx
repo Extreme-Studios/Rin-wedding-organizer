@@ -1,15 +1,10 @@
 import { motion } from "framer-motion";
 import { Check, Gem, Crown, Star, Diamond, type LucideIcon } from "lucide-react";
-import { packages, business } from "../data/content";
-import { SectionHeading, fadeUp, stagger, GoldButton } from "./ui";
+import { packages } from "../data/content";
+import { SectionHeading, fadeUp, stagger } from "./ui";
 import { cn } from "../utils/cn";
 
 const tierIcons: LucideIcon[] = [Star, Gem, Crown, Diamond];
-
-const waFor = (pkg: string) =>
-  `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(
-    `Halo Kak Rin, saya tertarik dengan paket pernikahan ${pkg}.`
-  )}`;
 
 export default function Packages() {
   return (
@@ -121,13 +116,6 @@ export default function Packages() {
                   ))}
                 </ul>
 
-                <GoldButton
-                  href={waFor(pkg.name)}
-                  variant={pkg.featured ? "solid" : "outline"}
-                  className="mt-8 w-full !px-4 text-center"
-                >
-                  Pesan {pkg.name}
-                </GoldButton>
               </motion.div>
             );
           })}
@@ -135,7 +123,7 @@ export default function Packages() {
 
         <p className="mt-10 text-center text-sm text-taupe font-light">
           * Harga adalah estimasi awal. Setiap paket dapat disesuaikan. Hubungi kami
-            untuk penawaran sesuai kebutuhan.
+            melalui chatbot Sahabat Rin untuk penawaran sesuai kebutuhan.
         </p>
       </div>
     </section>
